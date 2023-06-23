@@ -1,0 +1,96 @@
+*{
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px 12px;
+    border-radius: 4px; 
+    color: black;
+    transition: 350ms;
+    font-weight: bold;
+}
+
+.btn:hover{
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+table{
+    margin: 20px auto;
+    border: 2px solid black;
+    width: 50vw;
+}
+
+th, td{
+    text-align: center;
+}
+
+td{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+th{
+    border-bottom: 2px solid black;
+}
+
+.last_table_element{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label,button{
+    display: block;
+}
+
+.btn-create{
+    margin: 20px auto;
+    background: rgba(87, 177, 255, 0.52);
+}
+
+.btn-create:hover{
+    background: rgba(0, 57, 106, 0.942);
+    color: white
+}
+
+.btn-cancel{
+    background: rgb(255, 146, 146);
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-cancel:hover{
+    background: rgb(250, 102, 102);
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 20vw;
+    height: 25px;
+    border-radius: 8px;
+    border: 3px solid rgb(134, 134, 134);
+    text-align: left;
+}
+
+.title-element{
+    color:rgba(0, 134, 36, 0.942)
+}
+
+.btn-remove{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-remove-sim{
+    height: 32px !important;
+}
